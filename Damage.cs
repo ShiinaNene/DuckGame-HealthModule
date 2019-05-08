@@ -1,4 +1,4 @@
-		public static Dictionary<Type, int[]> Damages = new Dictionary<Type, int[]>() 
+	public static Dictionary<Type, int[]> Damages = new Dictionary<Type, int[]>() 
 //[Injury Type], new int[]{[Headshot Damage], [Body Damage], <Stunning Time>}
         {
             {typeof(AT9mm), new int[2]{51, 25} },
@@ -29,7 +29,7 @@
             {typeof(Bazooka), new int[2]{100, 100} },
         };
 		
-		public static Dictionary<Type, int[,]> SpecialDamages = new Dictionary<Type, int[,]>() 
+	public static Dictionary<Type, int[,]> SpecialDamages = new Dictionary<Type, int[,]>() 
 //[Injury Type], new int[N, 3]{[ChargeLevel-N Headshot Damage], [ChargeLevel-N Body Damage], [ChargeLevel-N Stunning Time]},
         {
             {typeof(ATPhaser), new int[3, 3]{
